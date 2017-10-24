@@ -9,6 +9,6 @@ enum COUNT {
 int main(void) {
 	enum COUNT nCount;
 	nCount = ONE;
-	printf("print");
+	printf("%d", nCount);
 	return 0;
 }
